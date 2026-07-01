@@ -1,0 +1,10 @@
+FMOD Bank Audio Extractor
+=========================
+A portable Python CLI utility to extract audio tracks
+from FMOD .bank/.assets.bank container files.
+
+Prerequisites:
+  pip install fsb5 pyogg
+
+Usage:
+  python fmod-be.py -i path/to/file.bank -o path/to/output_dir
